@@ -6,7 +6,6 @@ import Navigation from 'src/components/theme-layouts/components/navigation/Navig
 import UserMenu from 'src/components/theme-layouts/components/UserMenu';
 import { Divider } from '@mui/material';
 import Logo from '../../../../components/Logo';
-import GoToDocBox from '@/components/theme-layouts/components/GoToDocBox';
 
 const Root = styled('div')(({ theme }) => ({
 	backgroundColor: theme.palette.background.default,
@@ -32,7 +31,7 @@ const StyledContent = styled(FuseScrollbars)(() => ({
 	WebkitOverflowScrolling: 'touch',
 	backgroundRepeat: 'no-repeat',
 	backgroundSize: '100% 40px, 100% 10px',
-	backgroundAttachment: 'local, scroll'
+	backgroundAttachment: 'locaal, scroll'
 }));
 
 type NavbarStyle1ContentProps = {
@@ -65,8 +64,6 @@ function NavbarStyle1Content(props: NavbarStyle1ContentProps) {
 					/>
 				</div>
 			</StyledContent>
-
-			<GoToDocBox className="mx-12 my-16" />
 
 			<Divider />
 

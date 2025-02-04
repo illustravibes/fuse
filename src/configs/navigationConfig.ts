@@ -16,24 +16,13 @@ const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'dashboards',
 		title: 'Dashboards',
-		subtitle: 'Unique dashboard designs',
-		type: 'group',
+		type: 'item',
 		icon: 'heroicons-outline:home',
-		translate: 'DASHBOARDS',
-		children: [
-			{
-				id: 'dashboards.project',
-				title: 'Project',
-				type: 'item',
-				icon: 'heroicons-outline:clipboard-document-check',
-				url: '/dashboards/project'
-			}
-		]
+		url: '/dashboards/project'
 	},
 	{
 		id: 'member',
 		title: 'Members',
-		subtitle: 'Custom made page designs',
 		type: 'collapse',
 		icon: 'heroicons-outline:user-group',
 		children: [
@@ -49,7 +38,6 @@ const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'companies',
 		title: 'Companies',
-		subtitle: 'Custom made page designs',
 		type: 'item',
 		icon: 'heroicons-outline:building-office-2',
 		url: '/pages/companies'
@@ -57,7 +45,6 @@ const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'abilities',
 		title: 'Abilities',
-		subtitle: 'Custom made page designs',
 		type: 'item',
 		icon: 'heroicons-outline:light-bulb',
 		url: '/pages/abilities'
@@ -65,7 +52,6 @@ const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'announcements',
 		title: 'Announcements',
-		subtitle: 'Custom made page designs',
 		type: 'item',
 		icon: 'heroicons-outline:speaker-wave',
 		url: '/pages/announcements'
@@ -73,7 +59,6 @@ const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'letters',
 		title: 'Letters',
-		subtitle: 'Custom made page designs',
 		type: 'item',
 		icon: 'heroicons-outline:envelope',
 		url: '/pages/letters'
@@ -81,7 +66,6 @@ const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'events',
 		title: 'Events',
-		subtitle: 'Custom made page designs',
 		type: 'item',
 		icon: 'heroicons-outline:calendar',
 		url: '/pages/events'
@@ -89,7 +73,6 @@ const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'regions',
 		title: 'Regions',
-		subtitle: 'Custom made page designs',
 		type: 'item',
 		icon: 'heroicons-outline:map-pin',
 		url: '/pages/regions'
@@ -97,7 +80,6 @@ const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'principals',
 		title: 'Principals',
-		subtitle: 'Custom made page designs',
 		type: 'item',
 		icon: 'heroicons-outline:building-office',
 		url: '/pages/principals'
@@ -105,7 +87,6 @@ const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'agreements',
 		title: 'Agreements',
-		subtitle: 'Custom made page designs',
 		type: 'item',
 		icon: 'heroicons-outline:pencil',
 		url: '/pages/agreements'
@@ -113,7 +94,6 @@ const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'finances',
 		title: 'Finances',
-		subtitle: 'Custom made page designs',
 		type: 'collapse',
 		icon: 'heroicons-outline:banknotes',
 		children: [

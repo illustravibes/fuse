@@ -19,9 +19,21 @@ const settingsConfig: FuseSettingsConfigType = {
 		 * The config property defines the layout configuration for the application.
 		 * Check out default layout configs at src/components/theme-layouts for example src/components/theme-layouts/layout1/Layout1Config.js
 		 */
+
 		config: {
+			mode: 'container',
+			containerWidth: 1120,
 			navbar: {
-				style: 'style-2'
+				style: 'style-1'
+			},
+			toolbar: {
+				display: false
+			},
+			footer: {
+				display: false
+			},
+			rightSidePanel: {
+				display: false
 			}
 		} // checkout default layout configs at src/components/theme-layouts for example  src/components/theme-layouts/layout1/Layout1Config.js
 	},
